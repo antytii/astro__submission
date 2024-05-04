@@ -167,7 +167,7 @@
 .about-section > div {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
   margin-top: 32px;
 }
 
@@ -180,8 +180,8 @@
 .about-section .img-container {
   overflow: hidden;
   border-radius: 32px;
-  height: 390px;
-  width: 200%;
+  height: 450px;
+  width: 120%;
 }
 
 .about-section .about-img {
@@ -191,6 +191,9 @@
   height: 100%;
 }
 
+.about-desc p {
+  margin-top: 32px;
+}
 .footer {
   background-color: skyblue;
   color: white;
